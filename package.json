@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/crm-dashboard-customers/",
     "preview": "vite preview"
   },
   "devDependencies": {
