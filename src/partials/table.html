@@ -1,0 +1,152 @@
+<section class="table-section">
+  <h2 class="table-section-title">All Customers</h2>
+
+  <div class="active-members-form-container">
+    <p class="active-members">Active Members</p>
+    <form class="table-form">
+      <div class="input-box">
+        <svg width="24" height="24" class="search-icon">
+          <use href="./img/icons.svg#icon-search"></use>
+        </svg>
+        <label for="search" class="visually-hidden">Search</label>
+        <input type="text" class="search-input" placeholder="Search" name="search" id="search">
+      </div>
+
+
+      <label for="select" class="input-box select">Sort by:
+        <select name="select" id="select" class="input-select">
+          <option value="newest" class="select-option">Newest</option>
+          <option value="oldest">Oldest</option>
+        </select>
+      </label>
+    </form>
+  </div>
+
+  <div class="table-wrapper">
+    <table class="customers-table">
+      <caption class="visually-hidden">All Customers</caption>
+
+      <thead>
+        <th scope="col">Customer Name</th>
+        <th scope="col">Company</th>
+        <th scope="col">Phone Number</th>
+        <th scope="col">Email</th>
+        <th scope="col">Country</th>
+        <th scope="col">Status</th>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Jane Cooper</td>
+          <td>Microsoft</td>
+          <td>(225) 555-0118</td>
+          <td>jane@microsoft.com</td>
+          <td>United States</td>
+          <td><span class="active">Active</span></td>
+        </tr>
+        <tr>
+          <td>Floyd Miles</td>
+          <td>Yahoo</td>
+          <td>(205) 555-0100</td>
+          <td>floyd@yahoo.com</td>
+          <td>Kiribati</td>
+          <td><span class="inactive">Inactive</span></td>
+        </tr>
+        <tr>
+          <td>Ronald Richards</td>
+          <td>Adobe</td>
+          <td>(302) 555-0107</td>
+          <td>ronald@adobe.com</td>
+          <td>Israel</td>
+          <td><span class="inactive">Inactive</span></td>
+        </tr>
+        <tr>
+          <td>Marvin McKinney</td>
+          <td>Tesla</td>
+          <td>(252) 555-0126</td>
+          <td>marvin@tesla.com</td>
+          <td>Iran</td>
+          <td><span class="active">Active</span></td>
+        </tr>
+        <tr>
+          <td>Jerome Bell</td>
+          <td>Google</td>
+          <td>(629) 555-0129</td>
+          <td>jerome@google.com</td>
+          <td>Réunion</td>
+          <td><span class="active">Active</span></td>
+        </tr>
+        <tr>
+          <td>Kathryn Murphy</td>
+          <td>Microsoft</td>
+          <td>(406) 555-0120</td>
+          <td>kathryn@microsoft.com</td>
+          <td>Curaçao</td>
+          <td><span class="active">Active</span></td>
+        </tr>
+        <tr>
+          <td>Jacob Jones</td>
+          <td>Yahoo</td>
+          <td>(208) 555-0112</td>
+          <td>jacob@yahoo.com</td>
+          <td>Brazil</td>
+          <td><span class="active">Active</span></td>
+        </tr>
+        <tr>
+          <td>Kristin Watson</td>
+          <td>Facebook</td>
+          <td>(704) 555-0127</td>
+          <td>kristin@facebook.com</td>
+          <td>Åland Islands</td>
+          <td><span class="inactive">Inactive</span></td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="6">
+            <div class="tfoot-content">
+              <span> Showing data 1 to 8 of 256K entries</span>
+              <nav aria-label="Pagination">
+                <ul class="pagination-list">
+                  <li>
+                    <button type="button" class="pagination-button" aria-label="Pagination button">
+                      <svg width="8" height="12" class="pagination-chevron-icon prev">
+                        <use href="./img/icons.svg#icon-chevron"></use>
+                      </svg>
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="pagination-button active" aria-label="Pagination button">1</button>
+                  </li>
+                  <li>
+                    <button type="button" class="pagination-button" aria-label="Pagination button">2</button>
+                  </li>
+                  <li>
+                    <button type="button" class="pagination-button" aria-label="Pagination button">3</button>
+                  </li>
+                  <li>
+                    <button type="button" class="pagination-button" aria-label="Pagination button">4</button>
+                  </li>
+                  <li>
+                    <button type="button" class="pagination-button" aria-label="Pagination button">...</button>
+                  </li>
+                  <li>
+                    <button type="button" class="pagination-button" aria-label="Pagination button">40</button>
+                  </li>
+                  <li>
+                    <button type="button" class="pagination-button" aria-label="Pagination button">
+                      <svg width="8" height="12" class="pagination-chevron-icon next">
+                        <use href="./img/icons.svg#icon-chevron"></use>
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+            </div>
+            </nav>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</section>
