@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 16px;
+  row-gap: 16px;
   margin-bottom: 40px;
 }
 
@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  row-gap: 16px;
 }
 
 .input-box {
@@ -205,11 +205,11 @@
   }
 
   .input-box {
-    max-width: 90%;
+    max-width: 100%;
 
     &.select {
       justify-content: space-between;
-      max-width: 90%;
+      max-width: 100%;
     }
   }
 
