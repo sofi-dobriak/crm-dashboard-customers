@@ -10,6 +10,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .stats-item {
@@ -27,8 +29,8 @@
     bottom: 0;
     right: -64px;
   }
-
 }
+
 
 .stats-item-title {
   font-weight: 400;
@@ -77,6 +79,15 @@
 
     &.down {
       color: #d0004b;
+    }
+  }
+}
+
+@media screen and (max-width:1200px) {
+
+  .stats-item {
+    &:not(:last-child)::after {
+      content: none;
     }
   }
 }

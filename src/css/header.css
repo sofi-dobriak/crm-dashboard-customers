@@ -40,3 +40,10 @@
     outline: none;
   }
 }
+
+@media screen and (max-width:768px) {
+  .header-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
